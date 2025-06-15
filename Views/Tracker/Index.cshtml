@@ -1,0 +1,14 @@
+﻿@model List<OurTracker.Models.Entry>
+
+<h2>OurTracker<h2>
+<a href="/Tracker/Add">+ Add New</a>
+
+<ul>
+@foreach(var entry in Model)
+{
+    <li>
+        <strong>@entry.Type:</strong> @entry.Title <br/>
+        @entry.Description <em>(@entry.CreatedAt)</em>
+    </li>
+}
+</ul>

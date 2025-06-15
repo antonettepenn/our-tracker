@@ -1,0 +1,17 @@
+@model OurTracker.Models.Entry
+
+<h2>Add a New Entry</h2>
+
+<form asp-action="Add" method="post">
+    <input asp-for="Title" placeholder="Title" /><br><br>
+
+    <select asp-for="Type">
+    <option value="anime">anime</option>
+    <option value="date">date</option>
+    <option value="note">note</option>
+    </select><br><br>
+
+    <textarea asp-for="Description" placeholder="Say more..."></textarea><br><br>
+
+    <button type="submit">Add</button>
+</form>
