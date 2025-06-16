@@ -4,8 +4,9 @@ namespace OurTracker.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public string Type { get; set; } // which type of thing tracked "date-idea", "bucketlist-date", "show", "note"
+        public string Category { get; set; } // "todo", "show", "bucket", "date", "note"
         public string Description { get; set; }
-        public DateTime CreatedAt {get; set; } 
+        public DateTime CreatedAt { get; set; } 
+        public bool isCompleted { get; set; } 
     }
 }
