@@ -7,6 +7,6 @@ namespace OurTracker.Models
         public string Category { get; set; } // "todo", "show", "bucket", "date", "note"
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; } 
-        public bool isCompleted { get; set; } 
+        public bool IsCompleted { get; set; } 
     }
 }

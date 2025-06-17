@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/../Library/Containers/com.microsoft.Word/Data/Desktop/backend_server/node_modules/express" libraries="{.../express/node_modules}" />
+    <file url="file://$PROJECT_DIR$/../Library/Containers/com.microsoft.Word/Data/Desktop/backend_server/node_modules/send" libraries="{.../send/node_modules}" />
+    <file url="file://$PROJECT_DIR$/../Library/Containers/com.microsoft.Word/Data/Desktop/front_end/node_modules/express" libraries="{.../express/node_modules}" />
+    <file url="file://$PROJECT_DIR$/../Library/Containers/com.microsoft.Word/Data/Desktop/front_end/node_modules/send" libraries="{.../send/node_modules}" />
+  </component>
+</project>
